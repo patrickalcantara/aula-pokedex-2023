@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Chilanka";
+}
+
+header {
+  height: 20px;
+  border-bottom: 1px solid gray;
+  text-align: right;
+  padding-top: 80px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+header a {
+  text-transform: uppercase;
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+header a:hover {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+}
+
+#conteudo {
+  width: 70%;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.info-principal {
+  min-height: 200px;
+  display: flex;
+}
+
+.imagem-info {
+  height: 200px;
+  width: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.imagem-info > img {
+  width: 500px;
+}
+
+.texto-info {
+  min-height: 200px;
+  width: 50%;
+  padding: 5px;
+}
+
+.texto-info-secundaria {
+  width: 50%;
+  min-height: 200px;
+}
+
+.imagem-info-secundaria {
+  width: 50%;
+}
+
+.imagem-info-secundaria > img {
+  width: 100%;
+}
+
+.info-secundaria {
+  display: flex;
+}
+
+footer {
+  border-top: 1px solid #000;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}

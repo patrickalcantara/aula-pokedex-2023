@@ -77,3 +77,34 @@ footer {
   margin-top: 10px;
   padding: 10px 0;
 }
+
+#pokemons {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tipos {
+  display: grid;
+  grid-template-columns: 60px 60px;
+  gap: 0 10px;
+}
+
+.tipos > p {
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.grass {
+  background-color: darkgreen;
+}
+
+.poison {
+  background-color: darkviolet;
+}
+
+.pokemon:hover {
+  margin-top: -10px;
+}
